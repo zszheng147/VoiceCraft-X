@@ -35,7 +35,9 @@ For commercial use, please contact the authors.
 ## Acknowledgement
 We acknowledge the following open-source projects that made this work possible:
 - [AudioCraft](https://github.com/facebookresearch/audiocraft) for audio generation frameworks
-- [Montreal Forced Alignment](https://github.com/MontrealCorpusTools/Montreal-Forced-Alignment) for speech alignment
+- [Montreal Forced Alignment](https://montreal-forced-aligner.readthedocs.io/en/latest/) for speech alignment
+- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice)
+- [VoiceCraft](https://github.com/jasonppy/VoiceCraft)
 
 ## Citation
 If you use this work in your research, please cite:
