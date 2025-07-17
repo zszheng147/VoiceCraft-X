@@ -5,15 +5,6 @@
 <!-- <img src="https://github.com/user-attachments/assets/12d7749c-071a-427c-81bf-b87b91def670" alt="Watermark" style="width: 40px; height: auto"> -->
 
 
-## TODO
-- [x] Environment setup
-- [x] Inference code for TTS and speech editing
-- [ ] HuggingFace Spaces demo
-- [ ] Colab notebooks
-- [ ] Command line
-- [ ] Improve efficiency
-
-
 ## Installation
 ```bash
 conda create -n voicecraftx python=3.10
@@ -31,13 +22,21 @@ cd VoiceCraft-X
 git clone https://huggingface.co/zhisheng01/VoiceCraft-X pretrained_models
 ```
 Note: The default multilingual checkpoint is [`voicecraftx.ckpt`](https://huggingface.co/zhisheng01/VoiceCraft-X/resolve/main/voicecraftx.ckpt).
-To download the monolingual checkpoints, you can download from the following links:
+To download the monolingual checkpoints, you can download from the following links: (with more languages coming soon)
 - [English](https://huggingface.co/zhisheng01/VoiceCraft-X/resolve/main/voicecraftx-en.ckpt)
 - [Chinese](https://huggingface.co/zhisheng01/VoiceCraft-X/resolve/main/voicecraftx-zh.ckpt)
 
 ## Inference
 Checkout [`speech_editing.ipynb`](./src/speech_editing.ipynb) and [`speech_synthesize.ipynb`](./src/speech_synthesize.ipynb)
 
+## TODO
+- [x] Environment setup
+- [x] Inference code for TTS and speech editing
+- [ ] Upload monolingual (Japanese, French, Spanish, Indian Languages, ...) checkpoints to HuggingFace
+- [ ] HuggingFace Spaces demo
+- [ ] Colab notebooks
+- [ ] Command line
+- [ ] Improve efficiency
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
