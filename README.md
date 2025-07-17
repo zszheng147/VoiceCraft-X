@@ -19,8 +19,15 @@ conda install -c conda-forge montreal-forced-aligner==3.2.1
 pip install -r requirements.txt
 ```
 
+## Pretrained Models
+We have uploaded the pretrained models to HuggingFace. You can download them from [here](https://huggingface.co/zhisheng01/VoiceCraft-X).
+```bash
+cd VoiceCraft-X
+git clone https://huggingface.co/zhisheng01/VoiceCraft-X pretrained_models
+```
+
 ## Inference
-Checkout [`speech_editing.ipynb`](./src/inference/speech_editing.ipynb) and [`speech_synthesize.ipynb`](./src/inference/speech_synthesize.ipynb)
+Checkout [`speech_editing.ipynb`](./src/speech_editing.ipynb) and [`speech_synthesize.ipynb`](./src/speech_synthesize.ipynb)
 
 
 ## License
