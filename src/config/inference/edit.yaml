@@ -1,0 +1,31 @@
+pretrained_models: /home/ubuntu/VoiceCraft-X/pretrained_models
+voicecraftx_path: /home/ubuntu/VoiceCraft-X/pretrained_models/voicecraftx.ckpt
+skip_zh_tn_model: True # for faster loading
+
+SAMPLE_RATE: 16000
+CODEC_FRAME_RATE: 50
+MAX_LENGTH: 10 # 10 seconds
+
+model:
+  _name: voicecraftx
+  config_path: ${pretrained_models}
+  attn_implementation: flash_attention_2
+  torch_dtype: float32
+
+  speaker_embedding_size: 192  
+  
+  num_codebooks: 4
+
+  llm_input_size: 1024
+  llm_output_size: 1024
+  llm_padding_idx: 151643
+  
+  speech_token_size: 2048
+  speech_num_special_tokens: 3
+  
+  speech_empty_idx: 2048
+  speech_mask_idx: 2049
+  speech_eos_idx: 2050
+
+  silence_tokens: [11, 1093, 1980, 1859]
+  silence_nums: 3

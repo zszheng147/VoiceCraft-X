@@ -1,0 +1,11 @@
+outputs/ 
+__pycache__/
+.vscode/
+lightning_logs/
+wandb/
+demo/
+audiocraft
+backup
+seed_tts.
+seed_tts.*
+pretrained_models/
