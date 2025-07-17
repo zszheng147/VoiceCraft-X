@@ -3,8 +3,6 @@
 ## TODO
 - [x] Environment setup
 - [x] Inference code for TTS and speech editing
-- [ ] Training/finetuning guidance
-- [ ] Model weights
 - [ ] HuggingFace Spaces demo
 - [ ] Colab notebooks
 - [ ] Command line
@@ -26,10 +24,21 @@ Checkout [`speech_editing.ipynb`](./src/inference/speech_editing.ipynb) and [`sp
 
 
 ## License
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+
+[![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc/4.0/)
+
+**Copyright (c) 2025 Zhisheng Zheng/The University of Texas at Austin**
+
+For commercial use, please contact the authors.
 
 ## Acknowledgement
+We acknowledge the following open-source projects that made this work possible:
+- [AudioCraft](https://github.com/facebookresearch/audiocraft) for audio generation frameworks
+- [Montreal Forced Alignment](https://github.com/MontrealCorpusTools/Montreal-Forced-Alignment) for speech alignment
 
 ## Citation
+If you use this work in your research, please cite:
 
 
 ## Disclaimer
