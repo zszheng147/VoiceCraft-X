@@ -4,6 +4,9 @@
 [![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc/4.0/)
 <!-- <img src="https://github.com/user-attachments/assets/12d7749c-071a-427c-81bf-b87b91def670" alt="Watermark" style="width: 40px; height: auto"> -->
 
+### TL;DR
+VoiceCraft-X an autoregressive neural codec language model which unifies multilingual speech editing and zero-shot Text-to-Speech (TTS) synthesis across 11 languages: English, Mandarin, Korean, Japanese, Spanish, French, German, Dutch, Italian, Portuguese,
+and Polish.
 
 ## Installation
 ```bash
@@ -47,10 +50,10 @@ For commercial use, please contact the authors.
 
 ## Acknowledgement
 We acknowledge the following open-source projects that made this work possible:
-- [AudioCraft](https://github.com/facebookresearch/audiocraft) for audio generation frameworks
+- [AudioCraft](https://github.com/facebookresearch/audiocraft) for open-sourcing encodec
 - [Montreal Forced Alignment](https://montreal-forced-aligner.readthedocs.io/en/latest/) for speech alignment
-- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice)
-- [VoiceCraft](https://github.com/jasonppy/VoiceCraft)
+- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) for text-preprocessing and speaker embedding extraction
+- [VoiceCraft](https://github.com/jasonppy/VoiceCraft) for sampling strategy
 
 ## Citation
 If you use this work in your research, please cite:
