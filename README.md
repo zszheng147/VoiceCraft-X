@@ -53,7 +53,7 @@ We acknowledge the following open-source projects that made this work possible:
 - [AudioCraft](https://github.com/facebookresearch/audiocraft) for open-sourcing encodec
 - [Montreal Forced Alignment](https://montreal-forced-aligner.readthedocs.io/en/latest/) for speech alignment
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) for text-preprocessing and speaker embedding extraction
-- [VoiceCraft](https://github.com/jasonppy/VoiceCraft) for sampling strategy
+- [VoiceCraft](https://github.com/jasonppy/VoiceCraft) for token ordering and sampling strategy
 
 ## Citation
 If you use this work in your research, please cite:
